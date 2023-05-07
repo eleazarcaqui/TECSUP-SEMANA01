@@ -14,10 +14,10 @@
 						<img src="img/TECSUP.jpg" alt="" width="100" height="100">
 						<ul>
 							<li>
-								<a href="">Perfil</a>
+								<a href="#perfi">Perfil</a>
 							</li>
 							<li>
-								<a href="">Experencia</a>
+								<a href="#experencia">Experencia</a>
 							</li>
 							<li>
 								<a href="">Proyecto</a>
@@ -75,9 +75,11 @@
 					</div>
 				</div>
 			</article>
-			<section>
+			<section >
+
+
 				<div>
-					<h2>Experencia</h2>
+					<h2 href="#experencia">Experencia</h2>
 					<table border="1">
 						<thead>
 							<th>
@@ -150,6 +152,61 @@
 
 						</tbody>
 					</table>
+				</div>
+			</section>
+			<section>
+				<div>
+					<h2>Contáctenos</h2>
+					<form>
+						<div>
+							<label for="name">Nombre</label>
+							<input type="text" name="name" id="name" required>
+							<br>
+							<br>
+							<label for="email">Correo</label>
+							<input type="email" name="email" id="email" minlength="5" required>
+							<br>
+							<br>
+							<label for="Phone">Telefono</label>
+							<input type="number" name="Phone" id="Phone" maxlength="999999999" required>
+							<br>
+							<br>
+							<label for="messaje">Mensaje</label>
+							<textarea type="messaje" id="messaje" cols="30" rows="10"></textarea>
+							<br>
+							
+							<br>
+							<select name="dream" id="dream" >
+								<option>--select--</option>
+								<option value="e-commerce">E-commerce</option>
+								<option value="landig page">Landing page</option>
+								<option value="blog">Blog</option>
+								<option value="aplication">Aplication</option>
+							</select>
+							<input type="submit" value="Sueño a realizar">
+							<br>
+							<h4>Plan</h4>	
+						<input type="radio" name="plan" id="pro" value="pro" required>
+						<label for="pro">Pro</label>
+						<input type="radio" name="plan" id="primiun" value="primiun" required>
+						<label for="premiun">premiun</label>
+						<input type="radio" name="plan" id="medio" value="medio" required>
+						<label for="medio">Medio</label>
+						<input type="radio" name="plan" id="basico" value="basico" required>
+						<label for="basico">Básico</label>
+						<p>Por favor qué plan deseas</p>
+						<hr>
+						<h4>Secciones Adicionales </h4>
+						<input type="checkbox" name="upgrade" id="seo" value="seo">
+						<label for="css">SEO</label>
+						<input type="checkbox" name="upgrade" id="design" value="design">
+						<label for="javascript">Diseño</label>
+						<input type="checkbox" name="upgrade" id="marketing" value="marketing">
+						<label for="html">Marketing</label>
+						<label for="dream">Sueño a realizar</label>
+						<input type="submit" value="Sueño a realizar">
+					</div>	
+					</form>
 				</div>
 			</section>
 		</main>
